@@ -13,7 +13,7 @@ public class GHC2016 {
 		
 		id1.readFromFile("busy_day.in");
 		
-		Dists dists1 = new Dists(id1);
+		run(id1);
 		
 		InputData id2 = new InputData();
 		
@@ -33,4 +33,10 @@ public class GHC2016 {
 
 	}
 
+	static void run(InputData id) {
+		Dists dists = new Dists(id);
+		State state = new State(id);
+		
+	}
+	
 }
