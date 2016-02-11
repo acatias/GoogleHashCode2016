@@ -9,10 +9,17 @@ public class GHC2016 {
 		
 		System.out.println("Hello, World!");
 		
-
-		InputData id = new InputData();
+		InputData id1 = new InputData();
 		
-		id.readFromFile("busy_day.in");
+		id1.readFromFile("busy_day.in");
+		
+		InputData id2 = new InputData();
+		
+		id2.readFromFile("redundancy.in");
+		
+		InputData id3 = new InputData();
+		
+		id3.readFromFile("mother_of_all_warehouses.in");
 		
 		long endTime = System.nanoTime();
 		
