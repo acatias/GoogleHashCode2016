@@ -10,7 +10,9 @@ public class GHC2016 {
 		System.out.println("Hello, World!");
 		
 
+		InputData id = new InputData();
 		
+		id.readFromFile("busy_day.in");
 		
 		long endTime = System.nanoTime();
 		
