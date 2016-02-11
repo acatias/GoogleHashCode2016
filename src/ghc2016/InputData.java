@@ -1,3 +1,4 @@
+
 package ghc2016;
 
 public class InputData {
@@ -23,3 +24,4 @@ public class InputData {
 	public int[][] aOrderProdTypes; // nOrders x nProdTypes
 
 }
+
